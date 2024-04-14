@@ -1,0 +1,7 @@
+aospdtgen
+backports.lzma
+extract-dtb
+protobuf
+pycryptodome
+docopt
+zstandard

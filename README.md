@@ -1,3 +1,3 @@
 # YAPCP
 
-Yet Another PyPI Calculator Practice
+Yield AOSP PIP Compiler Package
