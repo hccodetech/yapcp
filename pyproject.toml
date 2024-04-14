@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "YAPCP"
+authors = [
+    {name = "hccodetech"},
+]
+description = "Yield AOSP PIP Compiler Package"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'aospdtgen', 'backports.lzma', 'extract-dtb', 'protobuf', 'pycryptodome', 'docopt', 'zstandard'
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+script-files = ["yapcp/instotherpkg.sh", "yapcp/instsyspkg.sh" ] 

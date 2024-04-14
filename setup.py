@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name = "YAPCP",
-    version="0.0.0.3",
+    version="0.0.0.5",
     author="hccodetech",
     url = "https://github.com/hccodetech/yapcp",
     download_url = "https://github.com/hccodetech/yapcp",
